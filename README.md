@@ -182,7 +182,7 @@ Gradient Boosting Model:
 Decision Tree Model:
 - The Decision Tree Model shows a more balanced performance between the two classes than Gradient Boosting, though it still struggles with the "Yes" class. The model is more consistent across precision and recall for each class.
 
-Random Forest Model:
+***Random Forest Model:***
 - ***The Random Forest Model shows the highest accuracy and is very effective in predicting the "No" class but has a significant issue with the "Yes" class, missing the vast majority of actual "Yes" instances.***
 
 ### Cross Validation 70-30 % - Random Forest
@@ -195,8 +195,7 @@ The accuracy of the model varies significantly, ranging from 69% to 95%. This su
 
 ### Adjusting Class Weights in Random Forest - Automatic Balancing
 
-Using Random Forest, it possible to adjust the class weights to give more importance to the
-"No" class. This can help the model pay more attention to the minority class.
+Using Random Forest, it possible to adjust the class weights to give more importance to the "No" class. This can help the model pay more attention to the minority class.
 
 ![image](https://github.com/EduardoJMatosRomero/MLDPSTCA2/blob/main/Images/Capture13.JPG)
 
