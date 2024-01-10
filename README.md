@@ -125,8 +125,9 @@ The negative T-Statistic value (-3.35) indicates that the average age of employe
 The P-Value of 0.00084 is significantly less than the common alpha level of 0.05. This low PValue indicates that the observed difference in ages between the two groups is statistically significant.
 
 ***Possible solutions:***
-  ***- Career Development Opportunities.***
-  ***- Recognition and Feedback.***
+
+- ***Career Development Opportunities.***
+- ***Recognition and Feedback.***
   
 #### T-test | Training time last year – Attrition
 
