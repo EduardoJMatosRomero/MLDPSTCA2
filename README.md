@@ -75,7 +75,7 @@ The department with more employees is Research & Development.
 
 ![image](https://github.com/EduardoJMatosRomero/MLDPSTCA2/blob/main/Images/Capture8.JPG)
 
-### Employees typically leave the company within the first 10 years.
+Employees typically leave the company within the first 10 years.
 
 # Statistics Analysis
 
