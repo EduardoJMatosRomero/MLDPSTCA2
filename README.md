@@ -27,13 +27,13 @@ Columns to perform the study are “JobSatisfaction”,”PerformanceRating” a
 
 ![image](https://github.com/EduardoJMatosRomero/MLDPSTCA2/blob/main/Images/Capture2.JPG)
 
-- The profile of the average employee is the next one:
-  - BusinessTravel - Travel_Rarely
-  - Department - Research & Development
-  - EducationField - Life Sciences
-  - JobRole - Sales Executive
-  - OverTime - No
-- The dataset is imbalanced, with certain categories occurring much more frequently than others.
+The profile of the average employee is the next one:
+- BusinessTravel - Travel_Rarely
+- Department - Research & Development
+- EducationField - Life Sciences
+- JobRole - Sales Executive
+- OverTime - No
+The dataset is imbalanced, with certain categories occurring much more frequently than others.
 
 ## Data processing
 
