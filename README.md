@@ -147,8 +147,11 @@ The p-value is slightly less than the typical alpha level of 0.05, suggesting th
 ## Insights and Recommendations Summary Based on the Analysis
 
 ***Employees who remain in the same role for an extended period of time tend to have longer company service and managerial relationships. However, they may experience delays in promotion, which could indicate potential complacency. This highlights the need for enhanced career development initiatives.***
+
 ***In the sales hierarchy, job level is positively correlated with stability and income, unlike in the technical, manufacturing, and healthcare sectors. Integrating sales into career plans could bridge departmental gaps and increase growth opportunities.***
+
 ***Employees who work under the same manager for an extended period may experience professional stagnation.***
+
 ***Younger employees tend to have higher attrition rates, which may be due to fewer training opportunities. Therefore, increasing training could improve retention and job satisfaction.***
 
 # Machine Learning algorithms
@@ -156,7 +159,7 @@ The p-value is slightly less than the typical alpha level of 0.05, suggesting th
 As it was analysed previously:
 - The majority of numerical features demonstrate a normal distribution, with data concentrated around the mean.
 - The dataset is imbalanced, with certain categories occurring much more frequently than others in categorical features.
-***The purpose of our machine learning classification model is to predict whether or not employees are likely to leave the company.***
+- ***The purpose of our machine learning classification model is to predict whether or not employees are likely to leave the company.***
 
 ## Data Pre-processing  
 
@@ -177,7 +180,7 @@ Gradient Boosting Model:
 Decision Tree Model:
 - The Decision Tree Model shows a more balanced performance between the two classes than Gradient Boosting, though it still struggles with the "Yes" class. The model is more consistent across precision and recall for each class.
 Random Forest Model:
-***- The Random Forest Model shows the highest accuracy and is very effective in predicting the "No" class but has a significant issue with the "Yes" class, missing the vast majority of actual "Yes" instances.***
+- ***The Random Forest Model shows the highest accuracy and is very effective in predicting the "No" class but has a significant issue with the "Yes" class, missing the vast majority of actual "Yes" instances.***
 
 ### Cross Validation 70-30 % - Random Forest
 
