@@ -191,7 +191,7 @@ Decision Tree Model:
 
 The accuracy of the model varies significantly, ranging from 69% to 95%. This suggests that the model's performance is sensitive to data splits and potential data peculiarities. High scores in certain folds raise concerns about overfitting, particularly if they exceed domain knowledge expectations or previous performance benchmarks.
 
-## Hyperparameter Tuning 70-30 % (I)
+## Hyperparameter Tuning 70-30 % - Final model
 
 ### Adjusting Class Weights in Random Forest - Automatic Balancing
 
@@ -199,10 +199,10 @@ Using Random Forest, it possible to adjust the class weights to give more import
 
 ![image](https://github.com/EduardoJMatosRomero/MLDPSTCA2/blob/main/Images/Capture13.JPG)
 
-The model accurately predicts the 'No' class but struggles with the 'Yes' class due to the imbalanced dataset. The high accuracy is misleading as the model shows a strong bias towards the 'No' class, as evidenced by the high recall and F1-score for 'No' and very low recall and F1-score for 'Yes'.
+***The model accurately predicts the 'No' class but struggles with the 'Yes' class due to the imbalanced dataset. The high accuracy is misleading as the model shows a strong bias towards the 'No' class, as evidenced by the high recall and F1-score for 'No' and very low recall and F1-score for 'Yes'.***
 
 ### Cross Validation 70-30 % - Random Forest Hyperparameter tunned- Class Weight adjusted with Automatic Balancing
 
 ***[0.69 - 0.91333333 - 0.92 - 0.94983278 - 0.94314381]***
 
-The Random Forest model exhibits varying accuracy across folds, ranging from 0.69 to 0.9498, indicating performance dependence on data subsets. With the exception of the first fold, accuracies exceed 90%, indicating overall effectiveness. The model's final analysis considers the complexity of capturing voluntary attrition factors.
+***The Random Forest model exhibits varying accuracy across folds, ranging from 0.69 to 0.9498, indicating performance dependence on data subsets. With the exception of the first fold, accuracies exceed 90%, indicating overall effectiveness. The model's final analysis considers the complexity of capturing voluntary attrition factors.***
