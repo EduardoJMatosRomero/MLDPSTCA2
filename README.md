@@ -39,11 +39,11 @@ Columns to perform the study are “JobSatisfaction”,”PerformanceRating” a
 
 ### Labelling missing values
 
+![image](https://github.com/EduardoJMatosRomero/MLDPSTCA2/blob/main/Images/Capture3.JPG)
+
 After the presence and distribution of null values were confirmed, NaNs in categorical features were labeled as a separate category.
 
 Given the random distribution and low number of missing values, median imputation is being used via sklearn.impute's SimpleImputer. Outliers are not a concern since all data responses originate from a predefined question set.
-
-![image](https://github.com/EduardoJMatosRomero/MLDPSTCA2/blob/main/Images/Capture3.JPG)
 
 ### Handling missing values in categorical features
 
