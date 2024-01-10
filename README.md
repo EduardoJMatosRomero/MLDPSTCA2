@@ -53,11 +53,17 @@ Multiple Imputation is used to handle numerical nulls while preserving data dist
 
 ## Data Overview - Visual analysis
 
+Do overtime stresses employees and makes them have to leave?
+
 ![image](https://github.com/EduardoJMatosRomero/MLDPSTCA2/blob/main/Images/Capture5.JPG)
+
+A considerable number of employees left the company without working overtime, suggesting that overtime may not have a direct impact on the decision to leave.
 
 ### Is salary one of the main reasons?
 
 ![image](https://github.com/EduardoJMatosRomero/MLDPSTCA2/blob/main/Images/Capture6.JPG)
+
+Most employees who leave the company have average incomes, which reduces the importance of the correlation between attrition and monthly income.
 
 ### What is the distribution of departments?
 
