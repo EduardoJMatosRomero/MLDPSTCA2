@@ -178,8 +178,10 @@ As it was analysed previously:
 
 Gradient Boosting Model:
 - The Gradient Boosting Model is effective in predicting the "No" class but struggles significantly with the "Yes" class, both in terms of precision and recall.
+
 Decision Tree Model:
 - The Decision Tree Model shows a more balanced performance between the two classes than Gradient Boosting, though it still struggles with the "Yes" class. The model is more consistent across precision and recall for each class.
+
 Random Forest Model:
 - ***The Random Forest Model shows the highest accuracy and is very effective in predicting the "No" class but has a significant issue with the "Yes" class, missing the vast majority of actual "Yes" instances.***
 
